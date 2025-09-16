@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/test_turkish_numbers.dir/test/test_turkish_numbers.cpp.o CMakeFiles/test_turkish_numbers.dir/src/turkish_numbers.cpp.o -o test_turkish_numbers  /usr/lib/x86_64-linux-gnu/libgtest.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a 

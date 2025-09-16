@@ -1,4 +1,0 @@
-/home/unix/sem3/OOP_CPP/firstlb/FirstCppProgram/turkish_numbers/build/CMakeFiles/turkish_numbers.dir
-/home/unix/sem3/OOP_CPP/firstlb/FirstCppProgram/turkish_numbers/build/CMakeFiles/test_turkish_numbers.dir
-/home/unix/sem3/OOP_CPP/firstlb/FirstCppProgram/turkish_numbers/build/CMakeFiles/edit_cache.dir
-/home/unix/sem3/OOP_CPP/firstlb/FirstCppProgram/turkish_numbers/build/CMakeFiles/rebuild_cache.dir
