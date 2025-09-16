@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/turkish_numbers.dir/src/main.cpp.o CMakeFiles/turkish_numbers.dir/src/turkish_numbers.cpp.o -o turkish_numbers 

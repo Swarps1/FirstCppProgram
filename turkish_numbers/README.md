@@ -9,4 +9,5 @@ mkdir build
 cd build
 cmake ..
 make
+./test_turkish_numbers
 ```

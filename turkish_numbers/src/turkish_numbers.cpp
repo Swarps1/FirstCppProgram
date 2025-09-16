@@ -1,6 +1,4 @@
-#include <iostream>
-#include <string>
-#include <stdexcept>
+#include "turkish_numbers.h"
 
 std::string numberToTurkish(int number)
 {
@@ -29,31 +27,15 @@ std::string numberToTurkish(int number)
         return tens[number / 10];
     }
 
-    // Составные числа
     int tensDigit = number / 10;
     int unitsDigit = number % 10;
 
-    return tens[tensDigit] + " " + units[unitsDigit];
-}
-
-int main()
-{
-    int number;
-
-    // Чтение числа из стандартного ввода
-    while (std::cin >> number)
+    if (tensDigit == 0)
     {
-        try
-        {
-            std::string turkishName = numberToTurkish(number);
-            std::cout << turkishName << std::endl;
-        }
-        catch (const std::exception &e)
-        {
-            std::cerr << "Error: " << e.what() << std::endl;
-            return 1;
-        }
+        return units[unitsDigit]; // Только единицы без пробела
     }
-
-    return 0;
+    else
+    {
+        return tens[tensDigit] + " " + units[unitsDigit]; // Десятки + пробел + единицы
+    }
 }
